@@ -1,0 +1,15 @@
+meta {
+  name: me
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8888/api/v1/auth/me
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjU1MzUyNjAsInBheWxvYWQiOnsiZW1haWwiOiJnQGcuZyIsImlkIjoiNmU2ODhjMjctZmY2YS00MjRmLWJhZWUtMzBjOWNhNzg4ODVmIiwidHlwZSI6IngtYWNjZXNzIn19.3h5yZLXp7Mb-K7rXbZm_BELUD-w5f8kF-g8TQvtOnQ8
+}
